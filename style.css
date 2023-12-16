@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+}
+
+.accord {
+    margin: 50px auto;
+    width: 805px;
+    height: 405px;
+    overflow: hidden;
+}
+h1 {
+    color: #fff; 
+    margin: 2rem auto;
+    width: 750px; 
+
+}
+h2 {
+    width: 300px;
+    margin: auto;
+    color: #fff; 
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    width: 160px;
+    position: relative;
+    display: block;
+    border-left: 1px solid #000000;
+    transition: all 0.3s;
+}
+
+ul li .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(29, 37, 37, 0.512);
+    width: 640px;
+}
+ul li .title a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 20px 40px;
+    font-size: 16px;
+}
+ul:hover li {
+    width: 40px;
+}
+ul li:hover {
+    width: 640px;
+}
